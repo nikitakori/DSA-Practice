@@ -6,6 +6,7 @@ public class Patterns {
         triangleInverte(r,0);
         triangle(r,0);
     }
+    //Inverted triangle
     static void triangleInverte(int r , int c){
         if(r == 0){
             return;
@@ -18,6 +19,7 @@ public class Patterns {
             triangleInverte(r - 1, 0);
         }
     }
+    //Normal Triangle
     static void triangle(int r , int c){
         if(r == 0){
             return;
